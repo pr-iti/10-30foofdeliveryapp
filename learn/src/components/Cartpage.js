@@ -147,8 +147,10 @@ const [prod , setProd] = useState([])
               </li>
             </ul>
             <button type="button" data-mdb-button-init data-mdb-ripple-init className="btn btn-primary btn-lg btn-block">
-              Go to checkout
+              Go to checkin
             </button>
+
+
           </div>
         </div>
       </div>
