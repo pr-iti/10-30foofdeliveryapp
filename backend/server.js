@@ -26,7 +26,9 @@ mongoose.connect(process.env.URI).then(()=>{
 })
 
 
-
+app.get('/' , (req,res)=>{
+    res.status(200).send('homepage')
+})
 
 
 
