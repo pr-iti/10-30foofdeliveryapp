@@ -7,6 +7,7 @@ const [prod , setProd] = useState([])
 
     const {cart , setCart ,totalitems  , PPrice , } = useContext(contextapi)
     useEffect(() => {
+      //make a amount portal;
       if (cart && cart.items) {
         fetch("/api/cart", {
           method: "POST",

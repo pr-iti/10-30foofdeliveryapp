@@ -34,6 +34,7 @@ exports.RegistrationUser = async(req ,res)=>{
 
 exports.LoginUser =async(req , res)=>{
     const {username , password} = req.body
+    console.log(req.body)
     const record = await Reg.findOne({Username : username})
     try{
         if(record !== null){
